@@ -1,13 +1,16 @@
 
 ## ⚡ 说明
+```bash
 # 环境
 1.  安装 vscode 以及 vscode 插件
 2.  安装 node version v16.20.1 + 匹配 pnpm 6.x +
+```
 
+```bash
 # 启动
 1.  pnpm i    安装依赖
 2.  pnpm  dev 启动工程
-
+```
 
 
 V3 Admin Vite is a free and open source middle and background management system basic solution, based on mainstream framework such as Vue3, TypeScript, Element Plus, Pinia and Vite
