@@ -8,9 +8,6 @@ dependencies:
   '@element-plus/icons-vue':
     specifier: 2.3.1
     version: 2.3.1(vue@3.4.27)
-  '@types/webpack-env':
-    specifier: ^1.18.5
-    version: 1.18.5
   axios:
     specifier: 1.7.2
     version: 1.7.2
@@ -112,9 +109,6 @@ devDependencies:
   eslint-plugin-vue:
     specifier: 9.26.0
     version: 9.26.0(eslint@8.57.0)
-  husky:
-    specifier: 9.0.11
-    version: 9.0.11
   jsdom:
     specifier: 24.1.0
     version: 24.1.0
@@ -1087,10 +1081,6 @@ packages:
 
   /@types/web-bluetooth@0.0.16:
     resolution: {integrity: sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==, tarball: https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.16.tgz}
-    dev: false
-
-  /@types/webpack-env@1.18.5:
-    resolution: {integrity: sha512-wz7kjjRRj8/Lty4B+Kr0LN6Ypc/3SymeCCGSbaXp2leH0ZVg/PriNiOwNj4bD4uphI7A8NXS4b6Gl373sfO5mA==, tarball: https://registry.npmmirror.com/@types/webpack-env/-/webpack-env-1.18.5.tgz}
     dev: false
 
   /@typescript-eslint/eslint-plugin@7.10.0(@typescript-eslint/parser@7.10.0)(eslint@8.57.0)(typescript@5.4.5):
@@ -3438,12 +3428,6 @@ packages:
   /human-signals@5.0.0:
     resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==, tarball: https://registry.npmmirror.com/human-signals/-/human-signals-5.0.0.tgz}
     engines: {node: '>=16.17.0'}
-    dev: true
-
-  /husky@9.0.11:
-    resolution: {integrity: sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==, tarball: https://registry.npmmirror.com/husky/-/husky-9.0.11.tgz}
-    engines: {node: '>=18'}
-    hasBin: true
     dev: true
 
   /iconv-lite@0.6.3:
