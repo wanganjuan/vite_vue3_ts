@@ -16,15 +16,6 @@ export default {
         title: "Element Plus",
         keepAlive: true
       }
-    },
-    {
-      path: "vxe-table",
-      component: () => import("@/views/table/vxe-table/index.vue"),
-      name: "VxeTable",
-      meta: {
-        title: "Vxe Table",
-        keepAlive: true
-      }
     }
   ]
 }
