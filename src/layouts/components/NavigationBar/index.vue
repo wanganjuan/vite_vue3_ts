@@ -80,6 +80,9 @@ const logout = () => {
   color: var(--v3-navigationbar-text-color);
   display: flex;
   justify-content: space-between;
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 0 3px 0 rgba(0, 0, 0, 0.04);
   .hamburger {
     display: flex;
     align-items: center;

@@ -118,5 +118,19 @@ function createRequest(service: AxiosInstance) {
 
 /** 用于网络请求的实例 */
 const service = createService()
-/** 用于网络请求的方法 */
-export const request = createRequest(service)
+function httpAxios() {}
+httpAxios.post = <T>(url: string, data: any) => {
+  return createRequest(service)<T>({
+    url,
+    method: "post",
+    data
+  })
+}
+httpAxios.get = <T>(url: string) => {
+  return createRequest(service)<T>({
+    url,
+    method: "get"
+  })
+}
+
+export default httpAxios

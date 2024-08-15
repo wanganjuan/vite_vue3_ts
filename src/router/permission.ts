@@ -18,7 +18,19 @@ router.beforeEach(async (to, _from, next) => {
   const userStore = useUserStoreHook()
   const permissionStore = usePermissionStoreHook()
   const token = getToken()
+  if (import.meta.env.VITE_DEMOTAG && permissionStore.routes.length === 0) {
+    // 生成可访问的 Routes
+    permissionStore.setAllRoutes()
+    // 将 "有访问权限的动态路由" 添加到 Router 中
+    permissionStore.addRoutes.forEach((route) => router.addRoute(route))
+    // 确保添加路由已完成
+    // 设置 replace: true, 因此导航将不会留下历史记录
 
+    return next()
+  }
+  if (import.meta.env.VITE_DEMOTAG) {
+    return next()
+  }
   // 如果没有登陆
   if (!token) {
     // 如果在免登录的白名单中，则直接进入

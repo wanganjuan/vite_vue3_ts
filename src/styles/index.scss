@@ -12,7 +12,11 @@
 @import "./mixins.scss";
 // View Transition
 @import "./view-transition.scss";
+@import "./tool-new-ui.scss";
 
+:root {
+  --el-color-primary: #09b382;
+}
 // 业务页面几乎都应该在根元素上挂载 class="app-container"，以保持页面美观
 .app-container {
   padding: 20px;
@@ -31,6 +35,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial,
     sans-serif;
   @extend %scrollbar;
+  font-size: 14px;
 }
 
 #app {

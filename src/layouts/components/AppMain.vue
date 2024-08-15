@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { useTagsViewStore } from "@/store/modules/tags-view"
 import { useSettingsStore } from "@/store/modules/settings"
-import Footer from "./Footer/index.vue"
 
 const tagsViewStore = useTagsViewStore()
 const settingsStore = useSettingsStore()
@@ -18,8 +17,6 @@ const settingsStore = useSettingsStore()
           </keep-alive>
         </transition>
       </router-view>
-      <!-- 页脚 -->
-      <Footer v-if="settingsStore.showFooter" />
     </div>
     <!-- 返回顶部 -->
     <el-backtop />
