@@ -1,0 +1,106 @@
+{
+  "router": {
+    "mainMenuPath": "test123",
+    "mainMenuTitle": "",
+    "subMenuPath": "level2123",
+    "subMenuTitle": "测试二级菜123单"
+  },
+  "filter": [
+    {
+      "label": "开户日期",
+      "key": "openAccDate"
+    },
+    {
+      "label": "业务部门",
+      "key": "deptNo"
+    },
+    {
+      "label": "账号",
+      "key": "innerAccno"
+    },
+    {
+      "label": "科目号",
+      "key": "subjectNo"
+    },
+    {
+      "label": "开户审批人",
+      "key": "openAccApprover"
+    },
+    {
+      "label": "对账责任人",
+      "key": "respTelNo"
+    }
+  ],
+  "tableData": [
+    {
+      "label": "账号",
+      "key": "innerAccno"
+    },
+    {
+      "label": "系统间流水号",
+      "key": "sysBetwSriNo"
+    },
+    {
+      "label": "业务系统流水号",
+      "key": "busiSysSriNo"
+    },
+    {
+      "label": "会计日期",
+      "key": "accountingDate"
+    },
+    {
+      "label": "起息日",
+      "key": "bgnIntDate"
+    },
+    {
+      "label": "核算机构",
+      "key": "instNo"
+    },
+    {
+      "label": "币种",
+      "key": "currType"
+    },
+    {
+      "label": "科目号",
+      "key": "accountingSubjNo"
+    },
+    {
+      "label": "摘要",
+      "key": "summName"
+    },
+    {
+      "label": "借方发生额",
+      "key": "drsOccuAmt"
+    },
+    {
+      "label": "贷方发生额",
+      "key": "crsOccuAmt"
+    },
+    {
+      "label": "借方余额",
+      "key": "drsBal"
+    },
+    {
+      "label": "贷方余额",
+      "key": "crsBal"
+    },
+    {
+      "label": "对方科目",
+      "key": "subjCharVal"
+    },
+    {
+      "label": "交易发起方系统代码",
+      "key": "initorSysCd"
+    },
+    {
+      "label": "交易时间",
+      "key": "txTime"
+    }
+  ],
+  "formData": [
+    {
+      "label": "交易时间",
+      "key": "txTime"
+    }
+  ]
+}

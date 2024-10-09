@@ -1,0 +1,40 @@
+{
+  "router": {
+    "mainMenuPath": "test123",
+    "mainMenuTitle": "测试一级菜单123"
+  },
+  "filter": [
+    {
+      "label": "用户姓名",
+      "key": "name"
+    },
+    {
+      "label": "用户状态",
+      "key": "status"
+    }
+  ],
+  "tableData": [
+    {
+      "label": "用户姓名",
+      "key": "name"
+    },
+    {
+      "label": "用户状态",
+      "key": "status"
+    },
+    {
+      "label": "备注",
+      "key": "remark"
+    }
+  ],
+  "formData": [
+    {
+      "label": "用户姓名",
+      "key": "name"
+    },
+    {
+      "label": "备注",
+      "key": "remark"
+    }
+  ]
+}

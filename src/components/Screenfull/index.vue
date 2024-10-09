@@ -59,13 +59,13 @@ const contentLargeSvgName = computed(() => {
 const handleContentLargeClick = () => {
   isContentLarge.value = !isContentLarge.value
   // 内容区放大时，将不需要的组件隐藏
-  document.body.className = isContentLarge.value ? "content-large" : ""
+  document.body.className = isContentLarge.value ? "content-large main-theme-clazz" : "main-theme-clazz"
 }
 const handleContentFullClick = () => {
   // 取消内容区放大
   isContentLarge.value && handleContentLargeClick()
   // 内容区全屏时，将不需要的组件隐藏
-  document.body.className = "content-full"
+  document.body.className = "content-full main-theme-clazz"
   // 开启全屏
   handleFullscreenClick()
 }
