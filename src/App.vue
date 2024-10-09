@@ -11,11 +11,11 @@ initTheme()
 
 /** 作者小心思 */
 ElNotification({
-  title: "Hello",
+  title: "紧急公告",
   type: "success",
   dangerouslyUseHTMLString: true,
   message:
-    "<a style='color: teal' target='_blank' href='https://github.com/un-pany/v3-admin-vite'>小项目获取 star 不易，如果你喜欢这个项目的话，欢迎点击这里支持一个 star ！这是作者持续维护的唯一动力（小声：毕竟是免费的）</a>",
+    "你有待处理的任务。<a style='color: teal' target='_blank' href='https://github.com/un-pany/v3-admin-vite'>点击进行处理！</a>",
   duration: 0,
   position: "bottom-right"
 })
